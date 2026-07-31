@@ -1,9 +1,13 @@
 #3. Restaurant Billing System
+#
 # Develop a Python program that accepts:
+#
 # Customer Name
 # Three Food Items
 # Price of each Item
+#
 # Display:
+#
 # Ordered Items
 # Total Amount
 # GST
