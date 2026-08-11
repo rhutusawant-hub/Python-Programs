@@ -13,7 +13,7 @@
 
 
 
-name  input("Enter the name of account holder : ")
+name = input("Enter the name of account holder : ")
 balance = int(input("Enter available balance : "))
 withdraw_amt = int(input("Enter your withdrawal amount : "))
 rem = balance - withdraw_amt
