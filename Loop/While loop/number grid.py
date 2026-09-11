@@ -4,15 +4,16 @@
 # 1 2 3 4
 # 1 2 3 4
 # 1 2 3 4
+# Q4. Number Grid
+# Print the following pattern:
+# 1 2 3 4
+# 1 2 3 4
+# 1 2 3 4
+# 1 2 3 4
 
-i = 1
 
-while i <= 4:
-    j = 1
-
-    while j <= 4:
-        print(f"{j}", end=" ")
-        j = j + 1
-
+for i in range(4):
+    # Inner loop to print numbers 1 to 4
+    for j in range(1, 5):
+        print(j, end=" ")
     print()
-    i = i + 1

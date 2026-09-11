@@ -1,14 +1,10 @@
 # Q3. Power Calculation
 # Calculate a^b without using the ** operator.
 
-a = int(input("Enter the base: "))
-b = int(input("Enter the power: "))
 
-result = 1
-i = 1
+b = int(input("Enter base (b): "))
+a = int(input("Enter exponent (a): "))
 
-while i <= b:
-    result = result * a
-    i = i + 1
+result = pow(b, a)
 
-print(f"Answer = {result}")
+print(f"{b} to the power of {a} is: {result}")
