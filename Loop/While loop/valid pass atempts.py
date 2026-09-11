@@ -3,11 +3,11 @@
 # Correct password → display "Login Successful"
 # Three incorrect attempts → display "Account Locked"
 
-password = "python123"
+password = "210608"
 
 attempts = 1
 
-while attempts <= 3:
+for i in range(3):
     user_password = input("Enter password: ")
 
     if user_password == password:

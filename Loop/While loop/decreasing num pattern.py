@@ -6,14 +6,9 @@
 # 12
 # 1
 
-i = 5
+rows = 5
 
-while i >= 1:
-    j = 1
-
-    while j <= i:
-        print(f"{j}", end="")
-        j = j + 1
-
-    print()
-    i = i - 1
+for i in range(rows, 0, -1):
+    for j in range(1, i + 1):
+        print(j, end="")
+    print()  
