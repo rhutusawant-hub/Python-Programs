@@ -1,8 +1,8 @@
 #1) * 
-# * * 
-# * * * 
-# * * * * 
-# * * * * * 
+#  * * 
+#  * * * 
+#  * * * * 
+#  * * * * * 
 # ----->
 # n = int(input("Enter length of triangle : "))
 # for i in range(n):
@@ -14,17 +14,16 @@
 
 
 #2) * * * * * 
-# * * * * 
-# * * * 
-# * * 
-# *
+#   * * * * 
+#   * * * 
+#   * *  
+#   *
 #  ------->
 # n = int(input("Enter length of triangle : "))
 # for i in range(n):
 #     for j in range( n-i ):
 #         print("*",end = " ")
 #     print()
-
 
 
 
@@ -45,9 +44,7 @@
 
 
 
-
-#4) *****
-22
+#4) ***** 
 #    ****
 #     ***
 #      **
@@ -61,7 +58,6 @@
 #     for k in range(n-i):
 #         print("*",end = "")
 #     print()
-
 
 
 
